@@ -32,7 +32,7 @@
     height: auto;
     display: flex;
     flex-wrap: wrap;
-    padding-left: 2%;
+    padding-left: 4%;
 }
 .main .data-column{
     width: 48%;
@@ -54,6 +54,7 @@
 .data-column .column-img{
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 .column-title{
   background: #0D757D;

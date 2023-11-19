@@ -39,6 +39,8 @@ const detail = [
     គ្រប់​ទីកន្លែង​ក្នុង​ប្រទេស​កម្ពុជា។ ក៏មានបេតិកភណ្ឌវប្បធម៌អរូបិយផ្សេងៗគ្នាជាច្រើនរបស់ដូនតាខ្មែរផងដែរ។ របាំប្រពៃណីខ្មែរមានក្បាច់ផ្សេងៗ។ របាំ​មួយ​ក្នុង​ចំណោម​នោះ​  
     គឺ​របាំ​ព្រះមុនី​មេខឡា​ដែល​ជា​របាំ​ប្រពៃណី​ដែល​មាន​ប្រជាប្រិយ​ភាព​ក្នុង​ចំណោម​ប្រជាជន​កម្ពុជា។`
 ];
+const height = ['200px', '200px', '200px', '200px','200px', '300px', '200px', '200px']
+const width = ['300px', '300px', '300px', '300px','300px', '300px', '300px', '300px']
 var dataRow = document.getElementById('data-row');
 
 const getRowData = () => {
@@ -47,7 +49,7 @@ const getRowData = () => {
         // dataTable += image[i]
         dataTable += `<div class="data-column">
         <div class="column column-img">
-            <img src="${image[i]}" alt="${image[i]}" width="100%" id="image">
+            <img src="${image[i]}" alt="${image[i]}" width="${width[i]}" id="image" height="${height[i]}">
         </div>
         <div class="column column text">
             <span class="column-title">
@@ -56,7 +58,7 @@ const getRowData = () => {
             <p class="column-detail" id="detail">
             ${detail[i]}
             </p>
-            <button class="read-more">
+            <button class="read-more" id="${totalData[i]}">
                 <b>អានបន្ថែម</b>
             </button>
         </div>
@@ -66,3 +68,8 @@ const getRowData = () => {
     console.log(dataRow);
 }
 getRowData()
+
+var btn_click_angkor_wat = document.getElementById('angkorWat');
+btn_click_angkor_wat.addEventListener('click',function(){
+    window.location.href ='/html/pages/angkor-wat.html'
+})
