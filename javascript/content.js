@@ -73,3 +73,8 @@ var btn_click_angkor_wat = document.getElementById('angkorWat');
 btn_click_angkor_wat.addEventListener('click',function(){
     window.location.href ='/html/pages/angkor-wat.html'
 })
+
+var btn_chapey = document.getElementById('chapei');
+btn_chapey.addEventListener('click',function(){
+    window.location.href ='/html/pages/chapey.html'
+})
