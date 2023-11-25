@@ -26,6 +26,24 @@
     <div class="apasra-bg"></div>
     <div class="apsara-container">
         <div class="left">
+            <button style=" 
+                width: 70px;
+                padding: 5px;
+                border: none;
+                border-radius: 4px;
+                margin: 5px 0;
+                opacity: 0.85;
+                display: inline-block;
+                font-size: 17px;
+                line-height: 20px;
+                text-decoration: none;
+                background-color: skyblue;
+                cursor: pointer;"
+                type="button"
+                id="apsara"
+            >
+                Back
+            </button>
             <h2 class="title">របាំអប្សរា ជារបាំព្រះរាជទ្រព្យ នៃព្រះរាជាណាចក្រកម្ពុជា</h2>
             <p style="margin: 10px 0;">&emsp; មានទម្រង់របាំបុរាណជាច្រើននៅក្នុងប្រទេសកម្ពុជា ដែលទម្រង់សិល្បៈដែលមានស្ទីលខ្ពស់ ធ្លាប់ត្រូវបានបង្ខាំងទុកជាចម្បងនៅក្នុងតុលាការនៃព្រះបរមរាជវាំង និងសម្តែងជាចម្បងដោយស្ត្រី។ គេស្គាល់ជាផ្លូវការជាភាសាខ្មែរថា របាំអប្សរា អ្នករបាំនៃទម្រង់បុរាណនេះ ច្រើនតែហៅថា អ្នករបាំអប្សរា។ របាំអប្សរា គឺជារបាំមួយក្នុងចំណោមរបាំជាច្រើននៅក្នុងរបាំបុរាណខ្មែរ។ របាំ​នេះ​ត្រូវ​បាន​បង្កើត​ឡើង​នៅ​ពាក់​កណ្តាល​សតវត្ស​ទី​២០ ដោយ​របាំ​ព្រះរាជទ្រព្យ​កម្ពុជា ក្រោម​ការ​ឧបត្ថម្ភ​របស់​ព្រះនាង​ស៊ីសុវត្ថិ កុសមៈ។ ទម្រង់របាំនេះត្រូវបានណែនាំជាលើកដំបូងទៅកាន់បរទេស និងល្បីល្បាញក្នុងអំឡុងទសវត្សរ៍ឆ្នាំ 1960 ថាជារបាំព្រះរាជទ្រព្យខ្មែរ។ អ្នករាំរបាំព្រះរាជទ្រព្យដំបូងគឺព្រះអង្គម្ចាស់នរោត្តមសីហនុ។</p>
             <img src="/image/apsara1.jpg" alt="" width="90%" height="400px" style="margin-left:5%; object-fit: cover;">
@@ -123,6 +141,12 @@
             </ul>
         </div>
     </div>
-
 </body>
+<script>
+    //fuction back
+    var btn_back = document.getElementById('apsara');
+    btn_back.addEventListener('click',function(){
+        window.location.href ='/html/layout/main.html'
+    })
+</script>
 </html>

@@ -18,7 +18,7 @@
     display: none;
 }
 .main {
-    height: 250vh;
+    height: 220vh;
     padding-bottom: 20px;
 }
 .main .title{
@@ -36,7 +36,7 @@
 }
 .main .data-column{
     width: 48%;
-    height: 350px;
+    height: 300px;
     background-color: red;
     display: flex;
     background-color: white;
