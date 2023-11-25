@@ -78,3 +78,8 @@ var btn_chapey = document.getElementById('chapei');
 btn_chapey.addEventListener('click',function(){
     window.location.href ='/html/pages/chapey.html'
 })
+
+var btn_apsara = document.getElementById('apsara');
+btn_apsara.addEventListener('click',function(){
+    window.location.href ='/html/pages/apsara.html'
+})
