@@ -91,3 +91,8 @@ btn_bayon.addEventListener('click',function(){
     window.location.href ='/html/pages/bayon.html'
 })
 
+var btn_bakong = document.getElementById('bakong');
+btn_bakong.addEventListener('click',function(){
+    window.location.href ='/html/pages/bakong.html'
+})
+

@@ -1,0 +1,32 @@
+.bakong-container{
+    width: 100%;
+    height: 300vh;
+    padding: 10px 0;
+}
+.bakong-sub-contain{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 10px;
+}
+.title{
+    font-family: 'Suwannaphum', serif;
+    text-align: center;
+}
+.bakong-img{
+    width: 80%;
+    height: 250px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.bakong-box{
+    width: 32%;
+    height: 100%;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.bakong-box img{
+    object-fit: cover;
+    border-radius: 20px;
+}
