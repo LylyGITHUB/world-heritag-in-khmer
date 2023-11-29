@@ -100,3 +100,8 @@ var btn_lakhon = document.getElementById('lakhon');
 btn_lakhon.addEventListener('click',function(){
     window.location.href ='/html/pages/lakhon.html'
 })
+
+var btn_mekhala = document.getElementById('mekhala');
+btn_mekhala.addEventListener('click',function(){
+    window.location.href ='/html/pages/mekhala.html'
+})

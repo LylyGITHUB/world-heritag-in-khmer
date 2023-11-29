@@ -1,0 +1,25 @@
+.mekhala-container{
+    width: 90%;
+    height: 200vh;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 1px 2px 5px black;
+    border-radius: 20px;
+}
+.title{
+    font-family: 'Suwannaphum', serif;
+    text-align: center;
+}
+.img-container{
+    width: 25%;
+    height: 85%;
+}
+.content{
+    width: 73%;
+}
+.box{
+    width: 100%;
+    height: 200px;
+    margin-bottom: 10px;
+}
