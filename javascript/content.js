@@ -96,3 +96,7 @@ btn_bakong.addEventListener('click',function(){
     window.location.href ='/html/pages/bakong.html'
 })
 
+var btn_lakhon = document.getElementById('lakhon');
+btn_lakhon.addEventListener('click',function(){
+    window.location.href ='/html/pages/lakhon.html'
+})
