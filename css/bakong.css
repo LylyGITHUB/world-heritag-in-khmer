@@ -43,7 +43,7 @@
     .footer{
         display: flex;
         flex-direction: column;
-        height: 60vh !important;
+        height: 400px !important;
         padding: 30px 50px !important;
     }
     .follow-us{
@@ -83,7 +83,7 @@
         width: 100%;
     }
     .bakong-container {
-        height: 800vh;
+        height: 4600px;
     }
 } 
 
@@ -102,7 +102,7 @@
     .footer{
         display: flex;
         flex-direction: column;
-        height: 60vh !important;
+        height: 400px !important;
         padding: 30px 50px !important;
     }
     .follow-us{
@@ -142,7 +142,7 @@
         width: 100%;
     }
     .bakong-container {
-        height: 810vh;
+        height: 4600px;
     }
 
 }
@@ -159,7 +159,7 @@
     .footer{
         display: flex;
         flex-direction: column;
-        height: 60vh !important;
+        height: 400px !important;
         padding: 30px 50px !important;
     }
     .follow-us{
@@ -199,14 +199,14 @@
         width: 100%;
     }
     .bakong-container {
-        height: 750vh;
+        height: 4300px;
     }
 }
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) { 
     .bakong-container {
-        height: 440vh;
+        height: 2400px;
     }
     .bakong-sub-contain .title{
         font-weight: 700;
@@ -216,7 +216,7 @@
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) { 
     .bakong-container {
-        height: 360vh;
+        height: 2200px;
     }
     .bakong-sub-contain .title{
         font-weight: 700;
@@ -226,7 +226,7 @@
 /* // Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
     .bakong-container {
-        height: 325vh;
+        height: 2600px;
     }
     .bakong-sub-contain .title{
         font-weight: 700;

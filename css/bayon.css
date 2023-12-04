@@ -40,15 +40,15 @@
         padding: 5px !important;
     }
     .header img {
-        width: 120px !important;
+        width: 100px !important;
     }
     .head-menu ul li a{
-        font-size: 12px;
+        font-size: 10px;
     }
     .footer{
         display: flex;
         flex-direction: column;
-        height: 60vh !important;
+        height: 300px !important;
         padding: 30px 50px !important;
     }
     .follow-us{
@@ -67,7 +67,7 @@
         margin-bottom: 10px;
     }
     .bayon-bg{
-        height: 800vh;
+        height: 4600px;
     }
     .contain-left .title{
         font-weight: 700;
@@ -108,7 +108,7 @@
     .footer{
         display: flex;
         flex-direction: column;
-        height: 60vh !important;
+        height: 300px !important;
         padding: 30px 50px !important;
     }
     .follow-us{
@@ -127,7 +127,7 @@
         margin-bottom: 10px;
     }
     .bayon-bg{
-        height: 750vh;
+        height: 4000px;
     }
     .contain-left .title{
         font-weight: 700;
@@ -169,7 +169,7 @@
     .footer{
         display: flex;
         flex-direction: column;
-        height: 60vh !important;
+        height: 300px !important;
         padding: 30px 50px !important;
     }
     .follow-us{
@@ -188,7 +188,7 @@
         margin-bottom: 10px;
     }
     .bayon-bg{
-        height: 680vh;
+        height: 3700px;;
     }
     .contain-left .title{
         font-weight: 700;
@@ -220,7 +220,7 @@
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) { 
     .bayon-bg{
-        height: 450vh;
+        height: 2700px;
     }
     .contain-left .title{
         font-weight: 700;
@@ -250,7 +250,7 @@
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) { 
     .bayon-bg{
-        height: 410vh;
+        height: 440vh;
     }
     .contain-left .title{
         font-weight: 700;
@@ -262,9 +262,9 @@
 }
 
 /* // Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
+@media (min-width: 1000px) {
     .bayon-bg{
-        height: 350vh;
+        height: 2400px;
     }
     .bayon-container{
         top: 80px;
@@ -272,5 +272,13 @@
     .contain-right img{
         margin-bottom: 60px !important;
         object-fit: cover;
+    }
+}
+@media (min-width: 2560px) {
+    .bayon-bg{
+        height: 2000px;
+    }
+    .contain-left{
+        height: 1300px !important;
     }
 }

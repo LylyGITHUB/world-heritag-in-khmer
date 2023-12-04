@@ -121,7 +121,7 @@ button.read-more:hover{
 }
 @media (max-width: 568px){
     .main{
-        height: 650vh;
+        height: 3700px;
     }
     .header{
         padding: 5px !important;
@@ -177,7 +177,7 @@ button.read-more:hover{
     .footer{
         display: flex;
         flex-direction: column;
-        height: 60vh !important;
+        height: 400px !important;
         padding: 30px 50px !important;
     }
     .follow-us{
@@ -201,7 +201,7 @@ button.read-more:hover{
 }
 @media (min-width: 375px) and (max-width: 568px) { 
     .main{
-        height: 750vh;
+        height: 4200px;
     }
     .header{
         padding: 10px !important;
@@ -256,7 +256,7 @@ button.read-more:hover{
     .footer{
         display: flex;
         flex-direction: column;
-        height: 60vh !important;
+        height: 400px !important;
         padding: 30px 50px !important;
     }
     .follow-us{
@@ -278,7 +278,7 @@ button.read-more:hover{
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 425px) and (max-width: 767.98px) {
     .main{
-        height: 720vh;
+        height: 4100px;
     }
     .header{
         padding: 10px !important;
@@ -324,7 +324,7 @@ button.read-more:hover{
     .footer{
         display: flex;
         flex-direction: column;
-        height: 60vh !important;
+        height: 400px !important;
         padding: 30px 50px !important;
     }
     .follow-us{
@@ -345,7 +345,7 @@ button.read-more:hover{
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
     .main {
-        height: 210vh;
+        height: 1200px;
     }
     .main .data-column {
         height: 250px;
@@ -381,7 +381,7 @@ button.read-more:hover{
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) { 
     .main{
-        height: 270vh;
+        height: 1700px;
     }
     .data-row{
         padding-left: 2% !important;
@@ -398,7 +398,7 @@ button.read-more:hover{
 /* // Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
     .main {
-        height: 260vh;
+        height: 1600px;
     }
     .main .data-column{
         height: 323px;

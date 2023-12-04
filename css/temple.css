@@ -176,7 +176,7 @@ img {
     .footer{
         display: flex;
         flex-direction: column;
-        height: 60vh !important;
+        height: 400px !important;
         padding: 30px 50px !important;
     }
     .follow-us{

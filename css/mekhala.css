@@ -36,7 +36,7 @@
     .footer{
         display: flex;
         flex-direction: column;
-        height: 60vh !important;
+        height: 400px !important;
         padding: 30px 50px !important;
     }
     .follow-us{
@@ -78,7 +78,7 @@
         width: 100%;
     }
     .mekhala-container{
-        height: 730vh;
+        height: 4100px;
     }
 } 
 
@@ -115,7 +115,7 @@
         width: 100%;
     }
     .mekhala-container{
-        height: 520vh;
+        height: 2900px;
     }
 
 }
@@ -132,7 +132,7 @@
     .footer{
         display: flex;
         flex-direction: column;
-        height: 60vh !important;
+        height: 400px !important;
         padding: 30px 50px !important;
     }
     .follow-us{
@@ -178,12 +178,12 @@
         width: 100%;
     }
     .mekhala-container{
-        height: 460vh;
+        height: 2600px;
     }
 }
 
 /* // Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 991.98px) { 
+@media (min-width: 768px) and (max-width:1024px) { 
     .mekhala-container .title{
         font-weight: 700;
     }
@@ -211,14 +211,14 @@
         width: 100%;
     }
     .mekhala-container{
-        height: 310vh;
+        height: 1700px;
     }
 }
 
 /* // Large devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1199.98px) { 
+@media (min-width:1024px) and (max-width: 1440px) { 
     .mekhala-container{
-        height: 270vh;
+        height: 1500px;
     }
     .img-container .box{
         margin-bottom: 60px;
@@ -229,9 +229,9 @@
 }
 
 /* // Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
+@media (min-width: 1441px) {
     .mekhala-container{
-        height: 230vh;
+        height: 1400px;
     }
     .mekhala-container .title{
         font-weight: 700;

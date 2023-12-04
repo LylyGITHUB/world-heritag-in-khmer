@@ -329,7 +329,7 @@ body {
   
   @media (min-width: 1200px) {
     .lakhon-container{
-      height: 580vh !important;
+      height: 3500px !important;
     }
   }
   
@@ -364,7 +364,7 @@ body {
       width: calc(100% - 20px);
     }
     .lakhon-container {
-      height: 1018vh;
+      height: 5700px;
     }
     .footer,
     .footer .useful-links ul li a,
@@ -431,7 +431,7 @@ body {
     .footer{
         display: flex;
         flex-direction: column;
-        height: 60vh !important;
+        height: 400px !important;
         padding: 30px 50px !important;
     }
     .follow-us{
@@ -450,7 +450,7 @@ body {
         margin-bottom: 10px;
     }
     .lakhon-container {
-      height: 1320vh;
+      height: 7400px;
   }
 } 
 
@@ -458,7 +458,7 @@ body {
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 375px) and (max-width: 568px){
   .lakhon-container {
-    height: 1110vh;
+    height: 6300px;
 }
 
 }
@@ -475,7 +475,7 @@ body {
     .footer{
         display: flex;
         flex-direction: column;
-        height: 60vh !important;
+        height: 400px !important;
         padding: 30px 50px !important;
     }
     .follow-us{
@@ -494,7 +494,7 @@ body {
         margin-bottom: 10px;
     }
     .lakhon-container {
-      height: 1060vh;
+      height: 6000px;
   }
 }
   

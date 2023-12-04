@@ -228,9 +228,20 @@
 /* // Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
     .apasra-bg{
-        height: 325vh;
+        height: 180vh !important;
     }
     .left .title{
         font-family: 'Bokor', serif;
+    }
+}
+@media (min-width: 2560px) {
+    .apasra-bg{
+        height: 150vh !important;
+    }
+    .left .title{
+        font-family: 'Bokor', serif;
+    }
+    .apsara-img{
+        display: none;
     }
 }
