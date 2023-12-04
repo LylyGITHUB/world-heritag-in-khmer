@@ -19,6 +19,7 @@
 }
 .header .head-menu ul{
     padding: 0;
+    margin: 0;
 }
 .header .head-menu ul li{
     list-style: none;

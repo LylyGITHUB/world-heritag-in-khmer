@@ -23,3 +23,217 @@
     height: 200px;
     margin-bottom: 10px;
 }
+@media (max-width: 575.98px){
+    .header{
+        padding: 5px !important;
+    }
+    .header img {
+        width: 100px !important;
+    }
+    .head-menu ul li a{
+        font-size: 10px;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        height: 60vh !important;
+        padding: 30px 50px !important;
+    }
+    .follow-us{
+        text-align: center;
+        margin-bottom: 20px !important;
+        font-size: 15px;
+    }
+    .useful-links,
+    .latest{
+        text-align: start;
+        width: 100%;
+    }
+    .footer .useful-links ul li a,
+    .footer .latest ul li a{
+        font-size: 15px !important;
+        margin-bottom: 10px;
+    }
+    .mekhala-container .title{
+        font-weight: 700;
+        font-size: 15px;
+    }
+    .sub-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .img-container{
+        width: 100%;
+    }
+    .img-container .box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .img-container .box img{
+        width: 90%;
+        height: 90%;
+    }
+    .content{
+        width: 100%;
+    }
+    .mekhala-container{
+        height: 730vh;
+    }
+} 
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 375px) and (max-width: 568px){
+    .mekhala-container .title{
+        font-weight: 700;
+        font-size: 15px;
+    }
+    .sub-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .img-container{
+        display: flex;
+        width: 100%;
+    }
+    .img-container .box:nth-child(1),
+    .img-container .box:nth-child(3),
+    .img-container .box:nth-child(4){
+         display: none;
+    }
+    .img-container .box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .img-container .box img{
+        width: 90%;
+        height: 90%;
+    }
+    .content{
+        width: 100%;
+    }
+    .mekhala-container{
+        height: 520vh;
+    }
+
+}
+@media (min-width: 425px) and (max-width: 568px){
+    .header{
+        padding: 5px !important;
+    }
+    .header img {
+        width: 120px !important;
+    }
+    .head-menu ul li a{
+        font-size: 12px;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        height: 60vh !important;
+        padding: 30px 50px !important;
+    }
+    .follow-us{
+        text-align: center;
+        margin-bottom: 20px !important;
+        font-size: 15px;
+    }
+    .useful-links,
+    .latest{
+        text-align: start;
+        width: 100%;
+    }
+    .footer .useful-links ul li a,
+    .footer .latest ul li a{
+        font-size: 15px !important;
+        margin-bottom: 10px;
+    }
+    .mekhala-container .title{
+        font-weight: 700;
+        font-size: 20px;
+    }
+    .sub-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .img-container{
+        display: flex;
+        width: 100%;
+    }
+    .img-container .box:nth-child(1){
+         display: none;
+    }
+    .img-container .box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .img-container .box img{
+        width: 90%;
+        height: 90%;
+    }
+    .content{
+        width: 100%;
+    }
+    .mekhala-container{
+        height: 460vh;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .mekhala-container .title{
+        font-weight: 700;
+    }
+    .sub-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .img-container{
+        display: flex;
+        width: 100%;
+    }
+    .img-container .box:nth-child(1){
+         display: none;
+    }
+    .img-container .box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .img-container .box img{
+        width: 90%;
+        height: 90%;
+    }
+    .content{
+        width: 100%;
+    }
+    .mekhala-container{
+        height: 310vh;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .mekhala-container{
+        height: 270vh;
+    }
+    .img-container .box{
+        margin-bottom: 60px;
+    }
+    .mekhala-container .title{
+        font-weight: 700;
+    }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .mekhala-container{
+        height: 230vh;
+    }
+    .mekhala-container .title{
+        font-weight: 700;
+    }
+}

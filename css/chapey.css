@@ -159,6 +159,15 @@ img {
     .title {
         font-size: 23px;
     }
+    .header{
+        padding: 5px !important;
+    }
+    .header img {
+        width: 100px !important;
+    }
+    .head-menu ul li a{
+        font-size: 7px;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */

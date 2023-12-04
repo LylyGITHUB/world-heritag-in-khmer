@@ -327,9 +327,9 @@ body {
     font-size: 16px;
   }
   
-  @media (max-width: 1232px) {
-    body {
-      padding: 60px;
+  @media (min-width: 1200px) {
+    .lakhon-container{
+      height: 580vh !important;
     }
   }
   
@@ -343,9 +343,13 @@ body {
     .tm-container {
       max-width: 600px;
     }
+    .lakhon-container {
+      height: 1000vh;
+    }
+    
   }
   
-  @media (max-width: 540px) {
+  @media (min-width: 540px) {
     .tm-block-brand-inner {
       flex-direction: column;
       padding: 35px;
@@ -358,6 +362,15 @@ body {
   
     .tm-contact-form {
       width: calc(100% - 20px);
+    }
+    .lakhon-container {
+      height: 1018vh;
+    }
+    .footer,
+    .footer .useful-links ul li a,
+    .footer .latest ul li a,
+    .head-menu ul li a{
+      font-size: 15px;
     }
   }
   
@@ -405,4 +418,83 @@ body {
       bottom: -25px;
     }
   }
+  @media (max-width: 575.98px){
+    .header{
+        padding: 5px !important;
+    }
+    .header img {
+        width: 100px !important;
+    }
+    .head-menu ul li a{
+        font-size: 8px;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        height: 60vh !important;
+        padding: 30px 50px !important;
+    }
+    .follow-us{
+        text-align: center;
+        margin-bottom: 20px !important;
+        font-size: 15px;
+    }
+    .useful-links,
+    .latest{
+        text-align: start;
+        width: 100%;
+    }
+    .footer .useful-links ul li a,
+    .footer .latest ul li a{
+        font-size: 15px !important;
+        margin-bottom: 10px;
+    }
+    .lakhon-container {
+      height: 1320vh;
+  }
+} 
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 375px) and (max-width: 568px){
+  .lakhon-container {
+    height: 1110vh;
+}
+
+}
+@media (min-width: 425px) and (max-width: 568px){
+    .header{
+        padding: 5px !important;
+    }
+    .header img {
+        width: 100px !important;
+    }
+    .head-menu ul li a{
+        font-size: 10px;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        height: 60vh !important;
+        padding: 30px 50px !important;
+    }
+    .follow-us{
+        text-align: center;
+        margin-bottom: 20px !important;
+        font-size: 15px;
+    }
+    .useful-links,
+    .latest{
+        text-align: start;
+        width: 100%;
+    }
+    .footer .useful-links ul li a,
+    .footer .latest ul li a{
+        font-size: 15px !important;
+        margin-bottom: 10px;
+    }
+    .lakhon-container {
+      height: 1060vh;
+  }
+}
   
